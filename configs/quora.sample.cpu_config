@@ -1,8 +1,8 @@
 {
-    "train_path": "/u/zhigwang/zhigwang1/sentence_match/quora/data/train.tsv",
-    "dev_path": "/u/zhigwang/zhigwang1/sentence_match/quora/data/dev.tsv",
-    "word_vec_path": "/u/zhigwang/zhigwang1/sentence_match/quora/wordvec.txt",
-    "model_dir": "/u/zhigwang/zhigwang1/sentence_match/quora/logs",
+    "train_path": "/Users/summer/Desktop/work/learn/nlp/data/quora/train.tsv",
+    "dev_path": "/Users/summer/Desktop/work/learn/nlp/data/quora/dev.tsv",
+    "word_vec_path": "/Users/summer/Desktop/work/learn/nlp/data/quora/wordvec.txt",
+    "model_dir": "/Users/summer/Desktop/work/learn/nlp/BiMPM/logs",
     "suffix": "quora",
     "fix_word_vec": true,
     "isLower": true,
@@ -14,7 +14,7 @@
     "char_lstm_dim": 40,
 
 
-    "batch_size": 60,
+    "batch_size": 2,
     "max_epochs": 20,
     "dropout_rate": 0.1,
     "learning_rate": 0.0005,
@@ -44,7 +44,7 @@
     "with_match_highway": true,
     "with_aggregation_highway": true,
 
-    "use_cudnn": true,
+    "use_cudnn": false,
 
     "with_moving_average": false
 }
